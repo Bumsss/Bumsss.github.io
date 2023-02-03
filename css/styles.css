@@ -1,39 +1,82 @@
-.navbar-nav{
+/*FONT FAMILY IMPORTS*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/img/mybg.png);
+    width: 100%;
+    background-size: cover;
+}
+
+.navbar-nav {
     display: inline;
 }
 
-.page-content {
-    text-align: center;
+a:hover{
+    color: red;
 }
 
-.navbar-inverse {
-    margin: 0px 0px 0px 0px;
+.space {
+    margin: 14% 0% 0% 9%;
+}
+.container-body {
+    display: inline;
+    margin: 0% 0% 0% 0%;
 }
 
-li .hoverr:hover, li .hoverr:active{
-    color: #6200be;
+.container-body p {
+    color: rgb(255, 255, 255);
+    margin: 0% 0% 0% 0%;
 }
 
-.container-footer {
-    text-align: center;
-    background-color: black;
+.try {
+    margin: -1.4% 0% 0% 0%;
+}
+
+.text-space {
+    margin: 0% 0% 0% 11%;
+}
+
+.text-left h1 {
+    color: rgb(255, 255, 255);
+    margin: 0% 0% 0% 7%;
+    font-size: 150px;
+    float: left;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.text-name {
+   font-family: 'Montserrat', sans-serif;
+
+    margin: 0% 0% 0% 0%;
+    font-size: 90px;
+
+}
+
+
+.sub-text {
+     font-family: 'Montserrat', sans-serif;
+     margin: -3% 0% 0% 15%;
+     font-size: 50px;
+    
+}
+
+input {
+    max-width: 100%;
+    border-radius: 100px;
+    width: 10%;
+    padding: 1%;
+    background: none;
+    border-color: rgb(255, 136, 0);
     color: white;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 15px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    text-align: center;
 }
 
-.footer-name {
-    margin: -13px 0px 10px 0px;
+.button-button {
+    padding: 1% 0% 0% 3%;
 }
-
-
-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
