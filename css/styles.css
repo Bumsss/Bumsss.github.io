@@ -1,0 +1,39 @@
+.navbar-nav{
+    display: inline;
+}
+
+.page-content {
+    text-align: center;
+}
+
+.navbar-inverse {
+    margin: 0px 0px 0px 0px;
+}
+
+li .hoverr:hover, li .hoverr:active{
+    color: #6200be;
+}
+
+.container-footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.footer-name {
+    margin: -13px 0px 10px 0px;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
