@@ -1,39 +1,44 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Portfolio | Home</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <!--CSS STYLE SHEET-->
-  <link rel="stylesheet" href="/css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Responsive Navigation Bar Using HTML & CSS only</title>
 </head>
 <body>
-<!--Navigation Bar-->
-
-<nav class="my-navbar navbar navbar-inverse">
-    <div class="container-fluid">
-      <ul class="left nav navbar-nav">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about/about.html">About</a></li>
-        <li><a href="/education/education.html">Education</a></li>
-        <li class="active"><a href="/achievements/achievements.html">Achievements</a></li>
-      </ul>
-   
-      <ul class="right nav navbar-nav navbar-right">
-        <li><a href="/contact/contact.html">Contact</a></li>
-      </ul>
-
-
-    </div>
-  </nav>
-  
-  <!-- Context Starts here!!!-->
-  <!-- Background -->
-
-
-
-  </body>
+    <header>
+      <div class="logo">
+        <a href="/"><img src="/img/logo.png" alt=""></a>
+      </div>
+      <input type="checkbox" id="nav_check" hidden>
+      <nav>
+          <div class="logo">
+              <a href="/"><img src="/img/logo.png" alt=""></a>
+          </div>
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/about/about.html">About</a>
+                </li>
+                <li>
+                    <a href="/education/education.html">Education</a>
+                </li>
+                <li>
+                    <a  class="active" href="/achievements/achievements.html">Achievements</a>
+                </li>
+                <li>
+                    <a href="/contact/contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <label for="nav_check" class="menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </header>
+</body>
 </html>
