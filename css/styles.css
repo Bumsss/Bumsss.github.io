@@ -1,6 +1,9 @@
 /* CSS IMPORT FONT */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Athiti&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -131,9 +134,16 @@ nav ul li a.active {
 }
 
 /* BODY ABOUT */
+.container-about hr.half {
+    border: 2px solid #ff9000;
+    width: 50%;
+    margin: 10px 1px 1px 1px;
+    opacity: .8;
+    border-radius: 12px;
+}
 .container-about{
     text-align: left;
-    width: 90%;
+    width: 80%;
     margin: 45px 0px 0px 100px;
 }
 
@@ -143,25 +153,64 @@ nav ul li a.active {
     font-size: 60px;
     font-weight: 600;
     letter-spacing: 1px;
+    
 }
 
 .container-about .about-paragraphone {
     color:#fefefe;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
-    font-weight: 200;
-    letter-spacing: .3px;
+    font-family: 'Athiti', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
     margin: 27px 0px 0px 0px;
 }
 
 .container-about .about-paragraphtwo {
     color:#fefefe;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Athiti', sans-serif;
     font-size: 17px;
-    font-weight: 200;
-    letter-spacing: .1px;
+    font-weight: 100;
     margin: 27px 0px 0px 0px;
     width: 60%;
+}
+
+.container-about .lookwhat {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    margin: 30px 0px 0px 130px;
+}
+
+.container-look {
+    display: flex;
+    margin-left: 153px;
+}
+
+.look-one {
+    margin: 30px 0px 0px 0px;
+    width: 13%;
+}
+
+.look-two {
+    margin: 30px 0px 0px 0px;
+    width: 50%;
+}
+.try {
+    color: #ff9000;
+    font-size: 17px;
+    margin: 0px 0px 15px 0px;
+}
+
+.try p {
+
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin: 0px 0px 0px 6px;
+    display: inline;
+}
+
+.about-paragraphtwo a {
+    color: #ff9000;
 }
 
 @keyframes fadeInUp {
