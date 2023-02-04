@@ -1,6 +1,6 @@
 /* CSS IMPORT FONT */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -15,11 +15,10 @@ body {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+
 }
 /* NAVIGATION BAR */
-img {
-    width: 100%;
-}
+
 header {
     width: 100%;
     height: 70px;
@@ -75,57 +74,94 @@ nav ul li a.active {
     margin: 6px 0;
     background: #ffffff;
 }
-@media only screen and (max-width: 1100px) {
-    header {
-        width: 100%;
-        padding: 0 20px;
-    }
-    nav {
-        position: absolute;
-        left: -300px;
-        top: 0;
-        z-index: 999;
-        width: 280px;
-        height: 100vh;
-        background-color: #000000;
-        transition: 0.2s;
-        box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.05);
-    }
-    #nav_check:checked ~ nav {
-        left: 0;
-    }
-    nav .logo {
-        display: block;
-        height: 70px;
-        display: flex;
-        align-items: center;
-        margin-left: 10px;
-    }
-    nav ul {
-        display: block;
-        padding: 0 20px;
-        margin-top: 30px;
-    }
-    nav ul li a {
-        margin-bottom: 5px;
-        padding: 15px;
-        border-radius: 5px;
-    }
-    .menu {
-        display: block;
-    }
-}
 
-/* BODY */
+
+/* BODY HOME */
 
 .container {
     text-align: left;
-    width: 70%;
-    margin: 0px 0px 0px 30px;
+    width: 90%;
+    margin: 213px 0px 0px 100px;
 }
 
 .container .try {
     color: #fefefe;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.container .web {
+    color: #fefefe;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin: 25px 0px 0px 0px;
+}
+
+.container .info {
+    color: #fefefe;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    letter-spacing: .1px;
+    margin: 16px 0px 0px 0px;
+    font-weight: 300;
+    width: 100%;
+    line-height: 40px;
+}
+
+.container .info a{
+    color: #ff9000;
+}
+
+.container .learn {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    letter-spacing: .1px;
+    margin: 16px 0px 0px 0px;
+    font-weight: 300;
+    width: 40%;
+    line-height: 40px;
+}
+
+.container .learn a {
+    color: #ff9000;
+}
+
+/* BODY ABOUT */
+.container-about{
+    text-align: left;
+    width: 90%;
+    margin: 45px 0px 0px 100px;
+}
+
+.container-about .about-head {
+    color:#fefefe;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.container-about .about-paragraphone {
+    color:#fefefe;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+    letter-spacing: .3px;
+    margin: 27px 0px 0px 0px;
+}
+
+.container-about .about-paragraphtwo {
+    color:#fefefe;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+    letter-spacing: .1px;
+    margin: 27px 0px 0px 0px;
+    width: 60%;
 }
 
 @keyframes fadeInUp {
@@ -165,4 +201,69 @@ nav ul li a.active {
     opacity: 0;
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+    header {
+        width: 100%;
+        padding: 0 20px;
+    }
+    nav {
+        position: absolute;
+        left: -300px;
+        top: 0;
+        z-index: 999;
+        width: 280px;
+        height: 100vh;
+        background-color: #000000;
+        transition: 0.2s;
+        box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.05);
+    }
+    #nav_check:checked ~ nav {
+        left: 0;
+    }
+    nav .logo {
+        display: block;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+    nav ul {
+        display: block;
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+    nav ul li a {
+        margin-bottom: 5px;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    .menu {
+        display: block;
+    }
+
+    .container {
+        width: 90%;
+        margin: 105px 0px 0px 50px;
+    }
+
+    .container .try {
+        font-size: 20px;
+    }
+
+    .container .web {
+        font-size: 50px;
+    }
+
+    .container .info {
+        width: 90%;
+        font-size: 17px;
+    }
+
+    .container .learn {
+        font-size: 16px;
+    }
 }
