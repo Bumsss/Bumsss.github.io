@@ -11,72 +11,50 @@ body {
     background-size: cover;
 }
 
-.navbar-nav {
-    display: inline;
+.my-navbar {
+    background-color:rgb(15, 15, 15);
+    border: 0;
 }
 
-a:hover{
-    color: red;
+.my-navbar .left li {
+    padding: 0px 30px 0px 30px;
 }
 
-.space {
-    margin: 14% 0% 0% 9%;
+.my-navbar li .active {
+    font-weight: 600;
 }
-.container-body {
-    display: inline;
-    margin: 0% 0% 0% 0%;
+.my-navbar .active a{
+    background-color: red;
 }
 
-.container-body p {
+.my-navbar .right li a{
     color: rgb(255, 255, 255);
-    margin: 0% 0% 0% 0%;
+    margin: 0px 120px 0px 0px;
 }
 
-.try {
-    margin: -1.4% 0% 0% 0%;
-}
-
-.text-space {
-    margin: 0% 0% 0% 11%;
-}
-
-.text-left h1 {
-    color: rgb(255, 255, 255);
-    margin: 0% 0% 0% 7%;
-    font-size: 150px;
-    float: left;
-    font-family:'Times New Roman', Times, serif;
-}
-
-.text-name {
-   font-family: 'Montserrat', sans-serif;
-
-    margin: 0% 0% 0% 0%;
-    font-size: 90px;
-
-}
-
-
-.sub-text {
-     font-family: 'Montserrat', sans-serif;
-     margin: -3% 0% 0% 15%;
-     font-size: 50px;
-    
-}
-
-input {
-    max-width: 100%;
-    border-radius: 100px;
-    width: 10%;
-    padding: 1%;
-    background: none;
-    border-color: rgb(255, 136, 0);
+.my-navbar .navbar-brand {
     color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
-    text-align: center;
 }
 
-.button-button {
-    padding: 1% 0% 0% 3%;
+.my-navbar .navbar-brand:hover {
+    color:rgb(255, 136, 0);
 }
+
+
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .my-navbar {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .my-navbar .container-body {
+      width: 100%;
+    }
+  }
