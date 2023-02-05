@@ -347,6 +347,13 @@ nav ul li a.active {
         width: 100%;
         padding: 0 20px;
     }
+
+    body {
+        background: url("/img/mybgsmall.png");
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
     nav {
         position: absolute;
         left: -300px;
