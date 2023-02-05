@@ -456,4 +456,34 @@ nav ul li a.active {
     .container-about .try {
         font-size: 14px;
     }
+
+    .container-contact {
+        width: 85%;
+        margin: 0px 0px 0px -50px;
+    }
+
+    .container-contact h2.contact-head {
+        font-size: 33px;
+    }
+
+    .container-contact h2.contact-touch {
+        font-size: 14.5px;
+        width: 100%;
+    }
+
+    .container-contact .container-onlyForm button{
+        width: 20%;
+    }
+
+    .container-contact .form-group input,
+.container-contact .form-group textarea {
+   width: 100%;
+   font-size: 13px;
+}
+    .container-contact .form-group {
+    font-size: 13px;
+}
+.container-contact .form-group ::placeholder {
+    padding: 0;
+}
 }
