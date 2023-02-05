@@ -3,7 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Athiti&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Athiti&family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -93,6 +95,16 @@ nav ul li a.active {
     font-size: 27px;
     letter-spacing: 1px;
     font-weight: 300;
+    margin: 0px 0px 0px 0px;
+}
+
+.container .aspiring  {
+    color: #fefefe;
+    font-family: 'Athiti', sans-serif;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 30px 0px 10px 0px;
 }
 
 .container .web {
@@ -101,7 +113,7 @@ nav ul li a.active {
     font-size: 60px;
     letter-spacing: 2px;
     font-weight: 600;
-    margin: 25px 0px 0px 0px;
+    margin: -13px 0px 0px 0px;
 }
 
 .container .info {
@@ -177,17 +189,17 @@ nav ul li a.active {
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-size: 35px;
-    margin: 30px 0px 0px 130px;
+    margin: 30px 0px 0px 0px;
 }
 
 .container-look {
     display: flex;
-    margin-left: 153px;
+    margin-left: 15px;
 }
 
 .look-one {
     margin: 30px 0px 0px 0px;
-    width: 13%;
+    width: 12%;
 }
 
 .look-two {
@@ -211,6 +223,82 @@ nav ul li a.active {
 
 .about-paragraphtwo a {
     color: #ff9000;
+}
+
+/* Contact Page */
+.container-contact {
+    width: 100%;
+}
+
+.container-contact .contact-head {
+    color: #fefefe;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    margin: 45px 0px 0px 100px;
+
+}
+
+.container-contact .contact-touch {
+    color: #fefefe;
+    font-family: 'Gothic A1', sans-serif;
+    margin: 30px 0px 0px 100px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.container-contact .contact-touch a {
+    color: #ff9000;
+}
+
+.container-contact .container-form {
+    width: 90%;
+}
+
+
+.container-contact .container-onlyForm {
+    width: 100%;
+    max-width: 700px;
+    margin: 40px 0px 5px 100px;
+}
+.container-contact .form-group {
+    width: 100%;
+    color: #fefefe;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.container-contact .form-group input,
+.container-contact .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #1b1b1b;
+    background-color: #1b1b1b;
+    color: #fefefe;
+    border-radius: 8px;
+    margin: 3px 0px 15px 0px;
+    font-weight: 100;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-contact .container-onlyForm button{
+    background-color: #1b1b1b;
+    width: 15%;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: .1px;
+    color: #ff9000;
+    border: 0;
+    border-radius: 12px;
+    padding: 12px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.container-contact .form-group ::placeholder {
+    padding: 5px 0px 10px 5px;
+    color: #858585;
 }
 
 @keyframes fadeInUp {
@@ -278,7 +366,7 @@ nav ul li a.active {
         height: 70px;
         display: flex;
         align-items: center;
-        margin-left: 10px;
+        margin-left: 50px;
     }
     nav ul {
         display: block;
@@ -314,5 +402,58 @@ nav ul li a.active {
 
     .container .learn {
         font-size: 16px;
+    }
+
+    .container-about {
+        width: 90%;
+        margin: 45px 0px 0px 40px;
+    }
+
+    .container-about h2.about-head{
+        font-size: 50px;
+        width: 90%;
+    }
+
+    .container-about hr.half {
+        width: 88%;
+    }
+
+    .container-about .about-paragraphone {
+        width: 75%;
+        font-size: 16px;
+    }
+
+    .container-about .about-paragraphtwo {
+        width: 85%;
+        font-size: 16px;
+    }
+
+    .container-about .lookwhat {
+        margin: 30px 0px 0px 0px;
+        font-size: 27px;
+    }
+
+    .container-look {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .container-look .look-one {
+        margin: 25px 0px 0px 10px;
+        width: 30%;
+    }
+
+    .look-one p,.look-two p {
+        font-size: 14px;
+    }
+    .container-look .look-two {
+        margin: 25px 0px 0px 10px;
+    }
+
+    .container-about .about-last {
+        margin: -15px 0px 40px 0px;
+    }
+
+    .container-about .try {
+        font-size: 14px;
     }
 }
