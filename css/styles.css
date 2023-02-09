@@ -495,3 +495,156 @@ nav ul li a.active {
     padding: 0;
 }
 }
+
+@media only screen and (max-width: 800px) {
+    header {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    body {
+        background: url("/img/mybgsmaller.png");
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+    nav {
+        position: absolute;
+        left: -300px;
+        top: 0;
+        z-index: 999;
+        width: 280px;
+        height: 100vh;
+        background-color: #000000;
+        transition: 0.2s;
+        box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.05);
+    }
+    #nav_check:checked ~ nav {
+        left: 0;
+    }
+    nav .logo {
+        display: block;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+    }
+    nav ul {
+        display: block;
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+    nav ul li a {
+        margin-bottom: 5px;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    .menu {
+        display: block;
+    }
+
+    .container {
+        width: 90%;
+        margin: 105px 0px 0px 50px;
+    }
+
+    .container .try {
+        font-size: 20px;
+    }
+
+    .container .web {
+        font-size: 50px;
+    }
+
+    .container .info {
+        width: 90%;
+        font-size: 17px;
+    }
+
+    .container .learn {
+        font-size: 16px;
+    }
+
+    .container-about {
+        width: 90%;
+        margin: 45px 0px 0px 40px;
+    }
+
+    .container-about h2.about-head{
+        font-size: 50px;
+        width: 90%;
+    }
+
+    .container-about hr.half {
+        width: 88%;
+    }
+
+    .container-about .about-paragraphone {
+        width: 75%;
+        font-size: 16px;
+    }
+
+    .container-about .about-paragraphtwo {
+        width: 85%;
+        font-size: 16px;
+    }
+
+    .container-about .lookwhat {
+        margin: 30px 0px 0px 0px;
+        font-size: 27px;
+    }
+
+    .container-look {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .container-look .look-one {
+        margin: 25px 0px 0px 10px;
+        width: 30%;
+    }
+
+    .look-one p,.look-two p {
+        font-size: 14px;
+    }
+    .container-look .look-two {
+        margin: 25px 0px 0px 10px;
+    }
+
+    .container-about .about-last {
+        margin: -15px 0px 40px 0px;
+    }
+
+    .container-about .try {
+        font-size: 14px;
+    }
+
+    .container-contact {
+        width: 85%;
+        margin: 0px 0px 0px -50px;
+    }
+
+    .container-contact h2.contact-head {
+        font-size: 33px;
+    }
+
+    .container-contact h2.contact-touch {
+        font-size: 14.5px;
+        width: 100%;
+    }
+
+    .container-contact .container-onlyForm button{
+        width: 20%;
+    }
+
+    .container-contact .form-group input,
+.container-contact .form-group textarea {
+   width: 100%;
+   font-size: 13px;
+}
+    .container-contact .form-group {
+    font-size: 13px;
+}
+.container-contact .form-group ::placeholder {
+    padding: 0;
+}
+}
