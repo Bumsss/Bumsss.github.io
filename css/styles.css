@@ -20,7 +20,6 @@ body {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-
 }
 /* NAVIGATION BAR */
 
@@ -36,10 +35,8 @@ header {
     margin: 0 auto;
     font-family: "Poppins";
 }
-.logo {
-    width: 250px;
-    margin-top: 8px;
-}
+
+
 nav .logo {
     display: none;
 }
@@ -81,12 +78,13 @@ nav ul li a.active {
 }
 
 
-/* BODY HOME */
+/* Home Page */
 
 .container {
     text-align: left;
     width: 90%;
     margin: 213px 0px 0px 100px;
+
 }
 
 .container .try {
@@ -145,7 +143,7 @@ nav ul li a.active {
     color: #ff9000;
 }
 
-/* BODY ABOUT */
+/* About Page */
 .container-about hr.half {
     border: 2px solid #ff9000;
     width: 50%;
@@ -300,6 +298,9 @@ nav ul li a.active {
     padding: 5px 0px 10px 5px;
     color: #858585;
 }
+
+
+
 
 @keyframes fadeInUp {
     from {
