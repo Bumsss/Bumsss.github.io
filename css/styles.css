@@ -300,7 +300,7 @@ nav ul li a.active {
 }
 
 .contact-icon {
-    margin: 200px 0px 0px 130px;
+    margin: 130px 0px 0px 120px;
     display: inline-block;
     justify-content: space-between;
 }
@@ -689,5 +689,29 @@ nav ul li a.active {
 }
 .container-contact .form-group ::placeholder {
     padding: 0;
+}
+
+.contact-icon {
+    margin: 50px 0px 0px 0px;
+    display: inline-block;
+    justify-content: space-between;
+    
+}
+
+.contact-icon a {
+    color: #fefefe;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    margin: 0px -20px 0px 0px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+.testimg {
+    max-width: 100%;
+    width: 15%;
+    margin: 0px 0px -5px 0px;
 }
 }
