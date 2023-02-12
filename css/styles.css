@@ -587,25 +587,25 @@ nav ul li a.active {
     }
 
     .container {
-        width: 90%;
+        width: 80%;
         margin: 105px 0px 0px 50px;
     }
 
     .container .try {
-        font-size: 20px;
+        font-size: 14px;
     }
 
     .container .web {
-        font-size: 50px;
+        font-size: 35px;
     }
 
     .container .info {
         width: 90%;
-        font-size: 17px;
+        font-size: 15px;
     }
 
     .container .learn {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .container-about {
@@ -702,7 +702,7 @@ nav ul li a.active {
     color: #fefefe;
     font-family: 'Open Sans', sans-serif;
     font-size: 10px;
-    margin: 0px -20px 0px 0px;
+    margin: 0px -30px 0px -10px;
     display: inline-block;
     text-align: center;
 }
