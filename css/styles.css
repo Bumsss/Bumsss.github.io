@@ -691,6 +691,21 @@ nav ul li a.active {
     padding: 0;
 }
 
+.container-contact .container-onlyForm button{
+    background-color: #1b1b1b;
+    width: 25%;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: .1px;
+    color: #ff9000;
+    border: 0;
+    border-radius: 12px;
+    padding: 12px;
+    cursor: pointer;
+    transition: .3s;
+}
+
 .contact-icon {
     margin: 50px 0px 0px 20px;
     display: inline-block;
