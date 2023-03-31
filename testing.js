@@ -4,7 +4,7 @@ function reveal() {
   for (var i = 0; i < reveals.length; i++) {
     var windowHeight = window.innerHeight;
     var elementTop = reveals[i].getBoundingClientRect().top;
-    var elementVisible = 150;
+    var elementVisible = 55;
 
     if (elementTop < windowHeight - elementVisible) {
       reveals[i].classList.add("active");
@@ -18,4 +18,4 @@ window.addEventListener("scroll", reveal);
 
 setTimeout(function () {
   $(".loader_bg").fadeToggle();
-}, 5000);
+}, 1000);
