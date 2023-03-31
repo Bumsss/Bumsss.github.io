@@ -16,12 +16,6 @@ function reveal() {
 
 window.addEventListener("scroll", reveal);
 
-window.addEventListener("load", () => {
-  const loader = document.querySelector(".lds");
-
-  loader.classList.add("lds--hidden");
-
-  loader.addEventListener("transitionend", () => {
-    document.body.removeChild(lds);
-  });
-});
+setTimeout(function () {
+  $(".loader_bg").fadeToggle();
+}, 5000);
