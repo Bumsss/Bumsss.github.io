@@ -1,97 +1,211 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="icon" type="image/x-icon" href="/img/icon.png"/>
-    <title>Portfolio | Home</title>
-</head>
-<body>
-  <!-- NAVIGATION BAR -->
-    <header>
-      <div class="logo">
-        <a href="/"><img class="red" src="/img/logo.png" alt=""></a>
-      </div>
-      <input type="checkbox" id="nav_check" hidden>
-      <nav>
-          <div class="logo">
-              <a href="/"><img src="/img/logo.png" alt=""></a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/330fca8e0c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Allen Bumanlag</title>
+  </head>
+  <body>
+    <div class="lds"></div>
+
+    <div class="logo">
+      <a href="#section1"><img class="logoimg" src="img/logo2.png" alt="" /></a>
+    </div>
+
+    <section>
+      <div id="section1">
+        <div class="wrappersec1">
+          <div class="mynamecont">
+            <h1 class="myname">Allen Bumanlag.</h1>
+            <p>Student Web Developer</p>
+            <p class="mynameabt">
+              I'm a Student Web Developer which focus Front-end Developing and
+              trying to study and master Back-end Developing. Fairly skilled in
+              Web Designing (HTML/CSS)
+            </p>
+
+            <button>
+              <a href="mailto:email@example.com"
+                >Contact Me
+                <i class="fa-solid fa-paper-plane" style="color: #ffffff"></i
+              ></a>
+            </button>
           </div>
-            <ul>
-                <li>
-                    <a href="/" class="active">Home</a>
-                </li>
-                <li>
-                    <a href="/about/about.html">About</a>
-                </li>
-                <li>
-                    <a href="/education/education.html">Education</a>
-                </li>
-                <li>
-                    <a href="/achievements/achievements.html">Achievements</a>
-                </li>
-                <li>
-                    <a href="/contact/contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <label for="nav_check" class="menu">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </label>
-    </header>
 
-    <!-- GREETINGS -->
-
-    <div class="container">
-      <div class="animated animatedFadeInUp fadeInUp">
-      <h2 class="try">Hi, I'm Allen. </h2>
-      </div>
-
-      <div class="animated animatedFadeInUp fadeInUp">
-        <h2 class="aspiring">Aspiring </h2>
+          <div class="imgsec1">
+            <img src="img/mypic2.jpg" alt="" />
+          </div>
         </div>
-
-      <div class="animated animatedFadeInUp fadeInUp">
-      <h2 class="web">Web Designer. Developer. </h2>
       </div>
+    </section>
 
-      <div class="animated animatedFadeInUp fadeInUp">
-      <h2 class="info">A student web developer and web designer who studies at <a href="https://www.hau.edu.ph/" target="_blank">Holy Angel University.</a> </h2>
-      </div>
-
-      <div class="animated animatedFadeInUp fadeInUp">
-      <h2 class="learn"><a href="/about/about.html">Learn more ></a></h2>
-      </div>
-    </div>
-
-    <div class="animated animatedFadeInUp fadeInUp">
-        <div class="contact-icon">
-            <a href="https://www.facebook.com/allenbumanlaggg/" target="_blank">
-             <img class="testimg" src="/img/icons8-facebook-48.png"> 
-             Allen Bumanlag</a>  
+    <section>
+      <div id="section2">
+        <div class="container reveal">
+          <div class="headersec2">
+            <h1>About Me</h1>
+            <p>Personal</p>
+          </div>
         </div>
+        <div class="wrappersec2">
+          <div class="imgsec2 reveal fade-left">
+            <img class="sec2picabout" src="img/mypicsmall.png" alt="" />
+          </div>
+          <div class="infoabout2 reveal fade-right">
+            <p>
+              My interest in Computer Programming started in 2011 when i get to
+              used into computers. I was very addictive in playing computer
+              games (RPG, ARPG, FPS, ETC) way back then and i'm playing for a
+              couple of hours. So decided to pursue taking up IT in college -
+              and I'm very into designing so i've picked the specialization in
+              Web Development.
+            </p>
 
-        <div class="contact-icon">
-            <a href="https://www.instagram.com/allenbumanlagg/" target="_blank">
-            <img class="testimg" src="/img/icons8-instagram-48.png">
-            @allenbumanlagg</a>
+            <div class="numberholder">
+              <div class="numbers">
+                <h1>04+</h1>
+                <p>Years of Experience</p>
+              </div>
+              <div class="numbers">
+                <h1>03+</h1>
+                <p>Completed Projects</p>
+              </div>
+              <div class="numbers">
+                <h1>00+</h1>
+                <p>Companies Worked</p>
+              </div>
             </div>
+            <button>
+              <a href="mailto:email@example.com"
+                >Download CV
+                <i class="fa-solid fa-code fa-2sx" style="color: #ffffff"></i
+              ></a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            <div class="contact-icon">
-                <a href="https://twitter.com/allenbumanlagg" target="_blank">
-                <img class="testimg" src="/img/icons8-twitter-48.png">
-                @allenbumanlagg</a>
-                </div>
+    <div id="section3">
+      <div class="container reveal">
+        <div class="headersec3">
+          <h1>Skills</h1>
+          <p>What i can do?</p>
+        </div>
+        <div class="container-holdersec3 reveal fade-left">
+          <div class="containermain-sec3">
+            <div class="container-headersec3">
+              <div class="container-headersec3i">
+                <i class="fa-solid fa-code" style="color: #ff9000"></i>
+              </div>
+              <div class="container-headersec3p">
+                <p>FrontEnd Developer</p>
+                <p class="headersec3p2">More than 4years</p>
+              </div>
+            </div>
+            <div class="container-headersecpicholder">
+              <img class="html" src="img/html.png" alt="" />
+              <img class="css" src="img/css.png" alt="" />
+              <img class="js" src="img/js.png" alt="" />
+              <img class="js" src="img/dart.png" alt="" />
+              <img class="wp" src="img/wordpress.png" alt="" />
+            </div>
+          </div>
+
+          <div class="containermain-sec3two reveal">
+            <div class="container-headersec3">
+              <div class="container-headersec3i">
+                <i class="fa-brands fa-codepen" style="color: #ff9000"></i>
+              </div>
+              <div class="container-headersec3p">
+                <p>BackEnd Developer</p>
+                <p class="headersec3p2">More than 4years</p>
+              </div>
+            </div>
+            <div class="container-headersecpicholder">
+              <img class="html" src="img/php.png" alt="" />
+            </div>
+          </div>
+
+          <div class="containermain-sec3three reveal fade-right">
+            <div class="container-headersec3">
+              <div class="container-headersec3i">
+                <i class="fa-solid fa-brain" style="color: #ff9000"></i>
+              </div>
+              <div class="container-headersec3p">
+                <p class="others">Others</p>
+                <p class="headersec3p2three">Acquired Skills</p>
+              </div>
+            </div>
+            <div class="container-headersecpicholder">
+              <img class="ps" src="img/photoshop.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    
+    <div id="section4">
+      <div class="container reveal">
+        <div class="wrappersec1">
+          <div class="mynamecont">
+            <h1 class="myname">Allen Bumanlag.</h1>
+            <p>Student Web Developer</p>
+            <p class="mynameabt">
+              I'm a Student Web Developer which focus Front-end Developing and
+              trying to study and master Back-end Developing. Fairly skilled in
+              Web Designing (HTML/CSS)
+            </p>
 
+            <button>
+              <a href="mailto:email@example.com"
+                >Contact Me
+                <i class="fa-solid fa-paper-plane" style="color: #ffffff"></i
+              ></a>
+            </button>
+          </div>
 
+          <div class="imgsec1">
+            <img src="img/mypic2.jpg" alt="" />
+          </div>
+        </div>
       </div>
-    
-    
-</body>
+    </div>
+
+    <div id="section5">
+      <div class="container reveal">
+        <div class="wrappersec1">
+          <div class="mynamecont">
+            <h1 class="myname">Allen Bumanlag.</h1>
+            <p>Student Web Developer</p>
+            <p class="mynameabt">
+              I'm a Student Web Developer which focus Front-end Developing and
+              trying to study and master Back-end Developing. Fairly skilled in
+              Web Designing (HTML/CSS)
+            </p>
+
+            <button>
+              <a href="mailto:email@example.com"
+                >Contact Me
+                <i class="fa-solid fa-paper-plane" style="color: #ffffff"></i
+              ></a>
+            </button>
+          </div>
+
+          <div class="imgsec1">
+            <img src="img/mypic2.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer"><p>Designed and Built by Allen Bumanlag</p></div>
+
+    <script src="testing.js"></script>
+  </body>
 </html>
