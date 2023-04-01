@@ -18,4 +18,4 @@ window.addEventListener("scroll", reveal);
 
 setTimeout(function () {
   $(".loader_bg").fadeToggle();
-}, 3000);
+}, 1000);
