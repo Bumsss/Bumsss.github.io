@@ -1192,16 +1192,18 @@ div.wrapperssec5b button.button:hover:after {
   }
 
   div.sec4header h1 {
-    font-size: 25;
+    font-size: 2.5rem;
     margin: auto;
   }
   div.sec4header p {
-    font-size: 10px;
+    font-size: 1rem;
     margin: 0;
   }
 
   .timelineholder {
     width: 100%;
+    margin: auto;
+    margin-left: 20%;
   }
 
   .timeline {
