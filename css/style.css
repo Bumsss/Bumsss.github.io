@@ -1373,4 +1373,8 @@ div.wrapperssec5b button.button:hover:after {
     margin-top: -30px;
     padding: 10px 22px;
   }
+
+  div.footer p {
+    font-size: 0.7em;
+  }
 }
