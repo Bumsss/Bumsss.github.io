@@ -937,7 +937,7 @@ div.wrapperssec5b button.button:hover:after {
     background-color: #1e293b;
     max-width: 100%;
     width: 50%;
-    height: 100px;
+    height: 110px;
     border-radius: 12px;
     margin: auto;
     margin-top: 10px;
@@ -945,28 +945,32 @@ div.wrapperssec5b button.button:hover:after {
   }
 
   div.container-headersec3p p.others {
-    margin-left: 40px;
-    font-size: 1em;
+    margin-left: 20px;
+    font-size: 1.3em;
   }
 
   div.container-headersec3p p.headersec3p2three {
-    width: 100%;
-    margin-top: -14px;
-    margin-left: 21px;
-    font-size: 9px;
+    margin-top: -20px;
+    margin-left: 24px;
+    font-size: 13px;
     text-align: center;
+  }
+
+  div.containermain-sec3threei {
+    width: 10%;
   }
 
   div.containermain-sec3three i {
     font-size: 30px;
     align-items: center;
     justify-content: center;
-    margin: 5px 0px 0px 16px;
+    margin-left: 28px;
+    margin-top: 0px;
   }
 
   div.container-headersecpicholder img.ps {
-    margin-left: 1.5px;
-    margin-top: 5px;
+    margin-left: 5px;
+    margin-top: 0px;
   }
 }
 
@@ -981,9 +985,9 @@ div.wrapperssec5b button.button:hover:after {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 687px) {
   body {
-    width: 550px;
+    width: 100%;
   }
   div.logo img.logoimg {
     margin: auto;
