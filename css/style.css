@@ -996,6 +996,13 @@ div.wrapperssec5b button.button:hover:after {
   }
 }
 
+@media (max-width: 261px) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+}
+
 @media (max-width: 687px) {
   body {
     overflow-x: hidden;
@@ -1003,25 +1010,44 @@ div.wrapperssec5b button.button:hover:after {
   }
   div.logo img.logoimg {
     margin: auto;
-    margin-left: 140px;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 65px;
   }
   div.wrappersec1 {
-    display: flex;
-    width: 100%;
+    display: block;
+    margin: auto;
+    width: 80%;
   }
   div.imgsec1 {
-    width: 50%;
+    width: 100%;
   }
 
   div.imgsec1 img {
     margin: auto;
-    margin-top: 50px;
+    margin-top: -500px;
+    margin-left: 20px;
+    width: 250px;
   }
 
   div.mynamecont {
+    width: 85%;
     margin: auto;
     margin-left: 10px;
-    margin-top: 50px;
+    margin-top: 370px;
+  }
+
+  div.mynamecont h1.myname {
+    font-size: 1.5rem;
+  }
+
+  div.mynamecont button {
+    width: 120px;
+    padding: 10px 8px;
+  }
+
+  div.mynamecont button a {
+    font-size: 0.9rem;
   }
 
   div.container-holdersec3 {
