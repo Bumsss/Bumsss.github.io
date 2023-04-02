@@ -1331,4 +1331,22 @@ div.wrapperssec5b button.button:hover:after {
     font-weight: 200;
     font-size: 12px;
   }
+
+  div.wrappersec5 {
+    width: 80%;
+  }
+
+  div.wrappersec5 h1.sec5head {
+    font-size: 2.5em;
+  }
+
+  div.wrappersec5 p {
+    font-size: 0.7em;
+  }
+
+  div.wrapperssec5b button.button {
+    font-size: 13px;
+    margin-top: -30px;
+    padding: 10px 22px;
+  }
 }
