@@ -1008,6 +1008,16 @@ div.wrapperssec5b button.button:hover:after {
     overflow-x: hidden;
     width: 100%;
   }
+
+  .loader {
+    width: 33px;
+    height: 33px;
+    position: relative;
+    display: inline-block;
+    margin: 0 13px;
+    top: calc(50vh - 50px);
+    left: calc(50vw - 100px);
+  }
   div.logo img.logoimg {
     margin: auto;
     margin-left: 30px;
