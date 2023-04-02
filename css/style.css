@@ -1036,7 +1036,7 @@ div.wrapperssec5b button.button:hover:after {
   div.imgsec1 img {
     margin: auto;
     margin-top: -500px;
-    margin-left: 20px;
+    margin-left: 70px;
     width: 250px;
   }
 
@@ -1048,12 +1048,29 @@ div.wrapperssec5b button.button:hover:after {
   }
 
   div.mynamecont h1.myname {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+  }
+
+  div.mynamecont p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  div.mynamecont p.mynameabt {
+    font-size: 0.8rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
   }
 
   div.mynamecont button {
     width: 120px;
     padding: 10px 8px;
+    float: right;
   }
 
   div.mynamecont button a {
@@ -1193,7 +1210,7 @@ div.wrapperssec5b button.button:hover:after {
   }
 
   div.headersec3 {
-    margin-top: 30px;
+    margin-top: 100px;
   }
   div.headersec3 h1 {
     font-size: 2.5rem;
