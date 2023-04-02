@@ -1140,7 +1140,7 @@ div.wrapperssec5b button.button:hover:after {
 
   div.container-headersecpicholder {
     display: flexbox;
-    margin: 0 5px 3px 5px;
+    margin: -12px 5px 3px 5px;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -1179,7 +1179,7 @@ div.wrapperssec5b button.button:hover:after {
     background-color: #1e293b;
     max-width: 100%;
     width: 70%;
-    height: 60px;
+    height: 65px;
     border-radius: 12px;
     margin: auto;
     margin-top: 10px;
@@ -1207,8 +1207,13 @@ div.wrapperssec5b button.button:hover:after {
   }
 
   div.container-headersecpicholder img.ps {
-    margin-left: 1.5px;
+    margin-left: 5px;
+    margin-top: 13px;
     width: 40px;
+  }
+
+  div.container-headersecpicholder img.php {
+    margin-top: 5px;
   }
 
   div.headersec3 {
