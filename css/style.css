@@ -985,8 +985,20 @@ div.wrapperssec5b button.button:hover:after {
   }
 }
 
+@media (max-width: 400px) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+  div.timelineholder {
+    width: 100%;
+    margin-left: 80px;
+  }
+}
+
 @media (max-width: 687px) {
   body {
+    overflow-x: hidden;
     width: 100%;
   }
   div.logo img.logoimg {
@@ -1202,8 +1214,8 @@ div.wrapperssec5b button.button:hover:after {
 
   .timelineholder {
     width: 100%;
-    margin: auto;
-    margin-left: 20%;
+    margin: 0;
+    margin-left: 0%;
   }
 
   .timeline {
