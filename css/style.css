@@ -1027,7 +1027,7 @@ div.wrapperssec5b button.button:hover:after {
   div.wrappersec1 {
     display: block;
     margin: auto;
-    width: 80%;
+    width: 90%;
   }
   div.imgsec1 {
     width: 100%;
@@ -1036,14 +1036,14 @@ div.wrapperssec5b button.button:hover:after {
   div.imgsec1 img {
     margin: auto;
     margin-top: -500px;
-    margin-left: 70px;
+    margin-left: 50px;
     width: 250px;
   }
 
   div.mynamecont {
-    width: 85%;
+    width: 90%;
     margin: auto;
-    margin-left: 10px;
+    margin-right: -40px;
     margin-top: 370px;
   }
 
