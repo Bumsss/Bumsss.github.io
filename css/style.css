@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-* {
-  color: #f3f3f3;
+
+button a {
+  color: #000000;
+}
+
+button a i {
+  color: red;
 }
 
 html,
@@ -10,19 +15,71 @@ body {
   padding: 0;
   font-family: "Lexend Deca", sans-serif;
 }
+/* background: #111827;*/
+body {
+  background: #e7e7e7;
+}
+
+label {
+  position: absolute;
+  width: 45px;
+  height: 22px;
+  right: 500px;
+  top: 50px;
+  border: 2px solid;
+  border-radius: 20px;
+}
+
+label:before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  left: 1px;
+  top: 1px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: #000;
+  transition: 0.5s;
+}
+
+label.active:before {
+  left: 24px;
+  background: #fff;
+  color: #000;
+}
+
+body.night {
+  background: #111827;
+  color: #fff;
+}
+
+body.night button a {
+  color: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  button i.fa-solid {
+    color: #f3f3f3;
+  }
+
+  div.wrapperssec5b button.button {
+    border: 2px solid #ffffff;
+  }
+}
 
 /* -- LOADER -- */
 .loader_bg {
   position: fixed;
   z-index: 999999;
-  background: #111827;
+  background: #f3f3f3;
   width: 100%;
   height: 100%;
 }
 
 .loader {
   --path: #ff9000;
-  --dot: #ffffff;
+  --dot: #000000;
   --duration: 3s;
   width: 44px;
   height: 44px;
@@ -97,20 +154,19 @@ body {
 
 /* MAIN HTML*/
 .logo {
-  background: #111827;
   height: 100px;
 }
 
 .logo .logoimg {
   max-width: 100%;
   width: 75px;
-  margin: 15px 0px 0px 350px;
+  margin: 25px 0px 0px 350px;
 }
 
 #section1 {
   min-height: 80vh;
   height: 80vh;
-  background-color: #111827;
+
   display: inline-block;
   max-width: 100%;
   width: 100%;
@@ -190,7 +246,7 @@ div.imgsec1 img:hover {
 
 #section2 {
   min-height: 90vh;
-  background-color: #111827;
+
   display: inline-block;
   width: 100%;
 }
@@ -276,7 +332,7 @@ div.infoabout2 button i {
 
 #section3 {
   min-height: 80vh;
-  background-color: #111827;
+
   display: inline-block;
   width: 100%;
 }
@@ -416,7 +472,7 @@ div.container-headersecpicholder {
 
 #section4 {
   min-height: 80vh;
-  background-color: #111827;
+
   display: inline-block;
   width: 100%;
 }
@@ -561,7 +617,7 @@ div.sec4header p {
 
 #section5 {
   min-height: 50vh;
-  background-color: #111827;
+
   display: inline-block;
   width: 100%;
 }
@@ -591,7 +647,7 @@ div.wrapperssec5b {
 div.wrapperssec5b button.button {
   display: inline-block;
   padding: 12px 24px;
-  border: 2px solid #ffffff;
+  border: 2px solid #000000;
   border-radius: 4px;
   transition: all 0.2s ease-in;
   position: relative;
@@ -657,7 +713,6 @@ div.wrapperssec5b button.button:hover:after {
 
 /* -- FOOTER --*/
 .footer {
-  background: #111827;
   padding: 5px;
   text-align: center;
 }
@@ -1044,6 +1099,17 @@ div.wrapperssec5b button.button:hover:after {
     top: calc(50vh - 50px);
     left: calc(50vw - 100px);
   }
+
+  label {
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    right: 30px;
+    top: 40px;
+    border: 2px solid;
+    border-radius: 20px;
+  }
+
   div.logo img.logoimg {
     margin: auto;
     margin-left: 30px;
