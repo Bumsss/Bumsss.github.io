@@ -4,10 +4,6 @@ button a {
   color: #000000;
 }
 
-button a i {
-  color: red;
-}
-
 html,
 body {
   scroll-behavior: smooth !important;
@@ -58,13 +54,74 @@ body.night button a {
   color: #fff;
 }
 
+body.night div.wrapperssec5b button.button {
+  border: 2px solid #f3f3f3;
+}
+
+body.night .timeline ul li .content p.subsec4 {
+  color: #ffffff;
+}
+
+body.night .timeline ul li .content p.subsec4left {
+  color: #ffffff;
+}
+
+body.night div.containermain-sec3 {
+  background-color: #1e293b;
+  max-width: 100%;
+  width: 21%;
+  max-height: 100%;
+  height: 300px;
+  margin-top: 80px;
+  border-radius: 12px;
+  padding-bottom: 30px;
+  box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;
+}
+
+body.night div.containermain-sec3two {
+  background-color: #1e293b;
+  max-width: 100%;
+  width: 21%;
+  max-height: 100%;
+  height: 300px;
+  margin-left: 25px;
+  margin-top: 80px;
+  border-radius: 12px;
+  padding-bottom: 30px;
+  box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;
+}
+
+body.night div.containermain-sec3three {
+  background-color: #1e293b;
+  max-width: 100%;
+  width: 21%;
+  max-height: 100%;
+  height: 300px;
+  margin-left: 25px;
+  margin-top: 80px;
+  border-radius: 12px;
+  padding-bottom: 30px;
+  box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;
+}
+
+body.night div.container-headersec3p p {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-left: 30px;
+  color: #ffffff;
+}
+
 @media (prefers-color-scheme: dark) {
-  button i.fa-solid {
-    color: #f3f3f3;
+  button.button {
+    border: 2px solid #ffffff;
   }
 
-  div.wrapperssec5b button.button {
-    border: 2px solid #ffffff;
+  .timeline ul li .content p.subsec4 {
+    color: #ffffff;
+  }
+
+  .timeline ul li .content p.subsec4left {
+    color: #ffffff;
   }
 }
 
@@ -363,7 +420,6 @@ div.container-holdersec3 {
 }
 
 div.containermain-sec3 {
-  background-color: #1e293b;
   max-width: 100%;
   width: 21%;
   max-height: 100%;
@@ -375,7 +431,6 @@ div.containermain-sec3 {
 }
 
 div.containermain-sec3two {
-  background-color: #1e293b;
   max-width: 100%;
   width: 21%;
   max-height: 100%;
@@ -388,7 +443,6 @@ div.containermain-sec3two {
 }
 
 div.containermain-sec3three {
-  background-color: #1e293b;
   max-width: 100%;
   width: 21%;
   max-height: 100%;
@@ -421,6 +475,7 @@ div.container-headersec3p p {
   font-size: 1.2rem;
   text-align: center;
   margin-left: 30px;
+  color: #000000;
 }
 
 div.container-headersec3p p.headersec3p2 {
@@ -497,13 +552,13 @@ div.sec4header p {
 .timeline {
   color: #fff;
   margin: auto;
-  margin-right: 720px;
+  margin-right: 605px;
   justify-content: center;
   align-items: center;
 }
 .timeline-left {
   max-width: 100%;
-  margin-left: -300px;
+  margin-left: -350px;
   width: 300px;
 }
 .timeline ul {
@@ -573,6 +628,7 @@ div.sec4header p {
 .timeline ul li .content p.subsec4 {
   margin-top: -15px;
   font-weight: 300;
+  color: #000;
 }
 
 .timeline ul li .content p.subsec4left {
@@ -580,6 +636,7 @@ div.sec4header p {
   text-align: right;
   margin-right: -42px;
   font-weight: 300;
+  color: #000;
 }
 .timeline ul li:before {
   position: absolute;
@@ -602,7 +659,7 @@ div.sec4header p {
   right: 150px;
   top: 28px;
   transition: 0.5s;
-  margin-left: 300px;
+  margin-left: 350px;
 }
 /*
 .timeline ul li:hover {
@@ -617,7 +674,6 @@ div.sec4header p {
 
 #section5 {
   min-height: 50vh;
-
   display: inline-block;
   width: 100%;
 }
@@ -647,7 +703,7 @@ div.wrapperssec5b {
 div.wrapperssec5b button.button {
   display: inline-block;
   padding: 12px 24px;
-  border: 2px solid #000000;
+  border: 2px solid rgb(5, 5, 5);
   border-radius: 4px;
   transition: all 0.2s ease-in;
   position: relative;
@@ -713,14 +769,17 @@ div.wrapperssec5b button.button:hover:after {
 
 /* -- FOOTER --*/
 .footer {
-  padding: 5px;
   text-align: center;
+  background: #111827;
+  padding: 5px;
 }
 
 .footer p {
   font-weight: 300;
   font-size: 16px;
-  margin: -50px 0px 0px 0px;
+  padding: 3px;
+  background: #111827;
+  color: #f3f3f3;
 }
 
 /* -- ANIMATIONS -- */
@@ -1371,7 +1430,7 @@ div.wrapperssec5b button.button:hover:after {
   .timeline {
     color: #fff;
     margin: auto;
-    margin-right: 110px;
+    margin-right: 20px;
     justify-content: center;
     align-items: center;
   }
@@ -1402,7 +1461,7 @@ div.wrapperssec5b button.button:hover:after {
     border-radius: 25px;
     padding: 3px 5px;
     margin-top: 20px;
-    margin-right: -110px;
+    margin-right: -80px;
     font-size: 12px;
     text-align: center;
   }
@@ -1412,16 +1471,22 @@ div.wrapperssec5b button.button:hover:after {
     background-color: #3071ff;
     border-radius: 25px;
     padding: 3px 5px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 23px;
+    margin-left: 10px;
     font-size: 12px;
     text-align: center;
+  }
+
+  .timeline ul li.left .content span.spandash {
+    color: red;
+    margin: 0px;
   }
 
   .timeline ul li .content h3 {
     color: #ff9000;
     font-size: 14px;
-    padding-top: 3px;
+    width: 80%;
+    margin-top: 5px;
   }
 
   .timeline ul li.left .content h3 {
@@ -1429,7 +1494,7 @@ div.wrapperssec5b button.button:hover:after {
     font-size: 14px;
     text-align: right;
     padding-top: 50px;
-    padding-left: 110px;
+    padding-left: 90px;
     width: 100%;
   }
 
@@ -1443,7 +1508,7 @@ div.wrapperssec5b button.button:hover:after {
     margin-top: -15px;
     text-align: right;
     width: 100%;
-    padding-left: 110px;
+    padding-left: 90px;
     font-weight: 200;
     font-size: 12px;
   }
@@ -1468,6 +1533,12 @@ div.wrapperssec5b button.button:hover:after {
 
   div.footer p {
     font-size: 0.7em;
+  }
+
+  #section4 {
+  }
+
+  #section5 {
   }
 }
 
