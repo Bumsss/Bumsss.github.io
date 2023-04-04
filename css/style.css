@@ -321,8 +321,9 @@ div.infoabout2 {
   margin-top: 20px;
 }
 
-div.infoabout2 p {
+div.infoabout2 p.aboutme2 {
   font-size: 18px;
+  text-align: justify;
 }
 
 div.numberholder {
@@ -751,7 +752,7 @@ div.wrapperssec5b button.button:hover:after {
 /* -- FOOTER --*/
 .footer {
   text-align: center;
-  background: #111827;
+  background: #ff9000;
   padding: 5px;
 }
 
@@ -759,8 +760,8 @@ div.wrapperssec5b button.button:hover:after {
   font-weight: 300;
   font-size: 16px;
   padding: 3px;
-  background: #111827;
-  color: #f3f3f3;
+  background: #ff9000;
+  color: #000;
 }
 
 /* -- ANIMATIONS -- */
@@ -768,7 +769,7 @@ div.wrapperssec5b button.button:hover:after {
   position: relative;
   transform: translateY(60px);
   opacity: 0;
-  transition: 1s all ease;
+  transition: 2s all ease;
 }
 .reveal.active {
   transform: translateY(0);
@@ -776,13 +777,13 @@ div.wrapperssec5b button.button:hover:after {
 }
 
 .active.fade-bottom {
-  animation: fade-bottom 1s ease-in;
+  animation: fade-bottom 1.5s ease-in;
 }
 .active.fade-left {
-  animation: fade-left 1.5s ease-in;
+  animation: fade-left 2.5s ease-in;
 }
 .active.fade-right {
-  animation: fade-right 1.5s ease-in;
+  animation: fade-right 2.5s ease-in;
 }
 
 @keyframes slideanimation {
@@ -1354,6 +1355,7 @@ div.wrapperssec5b button.button:hover:after {
 
   div.headersec3 {
     margin-top: 20px;
+    margin-bottom: 50px;
   }
   div.headersec3 h1 {
     font-size: 2.5rem;
