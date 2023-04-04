@@ -68,47 +68,26 @@ body.night .timeline ul li .content p.subsec4left {
 
 body.night div.containermain-sec3 {
   background-color: #1e293b;
-  max-width: 100%;
-  width: 21%;
-  max-height: 100%;
-  height: 300px;
-  margin-top: 80px;
-  border-radius: 12px;
-  padding-bottom: 30px;
-  box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;
+}
+
+body.night div.containermain-sec3 p {
+  color: #f3f3f3;
 }
 
 body.night div.containermain-sec3two {
   background-color: #1e293b;
-  max-width: 100%;
-  width: 21%;
-  max-height: 100%;
-  height: 300px;
-  margin-left: 25px;
-  margin-top: 80px;
-  border-radius: 12px;
-  padding-bottom: 30px;
-  box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;
+}
+
+body.night div.containermain-sec3two p {
+  color: #f3f3f3;
 }
 
 body.night div.containermain-sec3three {
   background-color: #1e293b;
-  max-width: 100%;
-  width: 21%;
-  max-height: 100%;
-  height: 300px;
-  margin-left: 25px;
-  margin-top: 80px;
-  border-radius: 12px;
-  padding-bottom: 30px;
-  box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;
 }
 
-body.night div.container-headersec3p p {
-  font-size: 1.2rem;
-  text-align: center;
-  margin-left: 30px;
-  color: #ffffff;
+body.night div.containermain-sec3three p {
+  color: #f3f3f3;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -609,6 +588,8 @@ div.sec4header p {
 }
 
 .timeline ul li span.spandash {
+  color: red;
+  border: none;
   background: transparent;
 }
 .timeline ul li .content h3 {
@@ -1186,8 +1167,8 @@ div.wrapperssec5b button.button:hover:after {
 
   div.imgsec1 img {
     margin: auto;
-    margin-top: -500px;
-    margin-left: 50px;
+    margin-top: -480px;
+    margin-left: 43px;
 
     width: 250px;
   }
@@ -1197,7 +1178,7 @@ div.wrapperssec5b button.button:hover:after {
     margin: auto;
     margin-right: 0px;
     margin-left: 15px;
-    margin-top: 370px;
+    margin-top: 300px;
   }
 
   div.mynamecont h1.myname {
@@ -1223,7 +1204,11 @@ div.wrapperssec5b button.button:hover:after {
   div.mynamecont button {
     width: 120px;
     padding: 10px 8px;
-    float: right;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-left: 90px;
+    margin-top: 20px;
   }
 
   div.mynamecont button a {
@@ -1237,10 +1222,32 @@ div.wrapperssec5b button.button:hover:after {
   }
 
   div.containermain-sec3 {
-    background-color: #1e293b;
+    background-color: #f3f3f3;
     max-width: 100%;
     width: 70%;
     height: 120px;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;
+  }
+
+  div.containermain-sec3two {
+    background-color: #f3f3f3;
+    max-width: 100%;
+    width: 70%;
+    height: 55px;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;
+  }
+
+  div.containermain-sec3three {
+    background-color: #f3f3f3;
+    max-width: 100%;
+    width: 70%;
+    height: 65px;
     border-radius: 12px;
     margin: auto;
     margin-top: 10px;
@@ -1297,17 +1304,6 @@ div.wrapperssec5b button.button:hover:after {
     width: 100%;
   }
 
-  div.containermain-sec3two {
-    background-color: #1e293b;
-    max-width: 100%;
-    width: 70%;
-    height: 55px;
-    border-radius: 12px;
-    margin: auto;
-    margin-top: 10px;
-    box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;
-  }
-
   div.containermain-sec3two i {
     font-size: 25px;
     margin-left: 17px;
@@ -1324,17 +1320,6 @@ div.wrapperssec5b button.button:hover:after {
   div.containermain-sec3two img {
     margin-left: 1.5px;
     width: 40px;
-  }
-
-  div.containermain-sec3three {
-    background-color: #1e293b;
-    max-width: 100%;
-    width: 70%;
-    height: 65px;
-    border-radius: 12px;
-    margin: auto;
-    margin-top: 10px;
-    box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;
   }
 
   div.container-headersec3p p.others {
@@ -1368,7 +1353,7 @@ div.wrapperssec5b button.button:hover:after {
   }
 
   div.headersec3 {
-    margin-top: 100px;
+    margin-top: 20px;
   }
   div.headersec3 h1 {
     font-size: 2.5rem;
@@ -1381,7 +1366,7 @@ div.wrapperssec5b button.button:hover:after {
   }
 
   div.headersec2 {
-    margin-top: 30px;
+    margin-top: 10px;
   }
   div.headersec2 h1 {
     font-size: 2.5rem;
@@ -1409,7 +1394,8 @@ div.wrapperssec5b button.button:hover:after {
     margin-top: 20px;
   }
   div.infoabout2 p {
-    font-size: 15px;
+    font-size: 0.8rem;
+    text-align: justify;
   }
 
   div.sec4header h1 {
@@ -1419,6 +1405,33 @@ div.wrapperssec5b button.button:hover:after {
   div.sec4header p {
     font-size: 1rem;
     margin: 0;
+  }
+
+  div.numberholder {
+    margin-top: -30px;
+  }
+
+  div.numbers {
+    margin-left: 15px;
+  }
+
+  div.numbers h1 {
+    font-size: 1.5em;
+  }
+
+  div.numbers p {
+    font-size: 0.8rem;
+  }
+
+  div.wrappersec2 button {
+    padding: 10px;
+    margin: auto;
+    margin-left: 70px;
+    margin-top: 30px;
+  }
+
+  div.wrappersec2 button a {
+    font-size: 14px;
   }
 
   .timelineholder {
@@ -1540,9 +1553,191 @@ div.wrapperssec5b button.button:hover:after {
 
   #section5 {
   }
+
+  body.night div.containermain-sec3 {
+    background-color: #1e293b;
+    max-width: 100%;
+    width: 21%;
+    max-height: 100%;
+    height: 300px;
+    margin-top: 80px;
+    border-radius: 12px;
+    padding-bottom: 30px;
+    box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;
+  }
+
+  body.night div.containermain-sec3two {
+    background-color: #1e293b;
+    max-width: 100%;
+    width: 21%;
+    max-height: 100%;
+    height: 300px;
+    margin-left: 25px;
+    margin-top: 80px;
+    border-radius: 12px;
+    padding-bottom: 30px;
+    box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;
+  }
+
+  body.night div.containermain-sec3three {
+    background-color: #1e293b;
+    max-width: 100%;
+    width: 21%;
+    max-height: 100%;
+    height: 300px;
+    margin-left: 25px;
+    margin-top: 80px;
+    border-radius: 12px;
+    padding-bottom: 30px;
+    box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;
+  }
+
+  body.night div.container-headersec3p p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: 30px;
+    color: #ffffff;
+  }
+
+  div.container-holdersec3 {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+
+  body.night div.containermain-sec3 {
+    background-color: #1e293b;
+    max-width: 100%;
+    width: 70%;
+    height: 120px;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;
+  }
+
+  body.night div.containermain-sec3two {
+    background-color: #1e293b;
+    max-width: 100%;
+    width: 70%;
+    height: 55px;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;
+  }
+
+  body.night div.containermain-sec3three {
+    background-color: #1e293b;
+    max-width: 100%;
+    width: 70%;
+    height: 65px;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;
+  }
+
+  body.night div.container-headersec3i {
+    width: 5%;
+    text-align: center;
+  }
+  body.night div.container-headersec3i i {
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 0px;
+    font-size: 20px;
+  }
+
+  body.night div.container-headersec3p p {
+    font-size: 13px;
+    text-align: center;
+    margin-left: 37px;
+  }
+
+  body.night div.container-headersecpicholder img.css {
+    margin-left: 5px;
+  }
+
+  body.night div.container-headersecpicholder img.js {
+    margin-left: 5px;
+  }
+
+  body.night div.container-headersecpicholder img.wp {
+    margin-left: 5px;
+  }
+
+  body.night div.container-headersec3p p.headersec3p2 {
+    width: 72%;
+    margin-top: -13px;
+    margin-left: 18px;
+    font-size: 9px;
+    text-align: center;
+  }
+
+  body.night div.containermain-sec3 img {
+    width: 40px;
+  }
+
+  body.night div.container-headersecpicholder {
+    display: flexbox;
+    margin: -12px 5px 3px 5px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  body.night div.containermain-sec3two i {
+    font-size: 25px;
+    margin-left: 17px;
+  }
+
+  body.night div.containermain-sec3two p {
+    margin-left: 40px;
+  }
+
+  body.night div.containermain-sec3two p.headersec3p2 {
+    margin-left: 17px;
+  }
+
+  body.night div.containermain-sec3two img {
+    margin-left: 1.5px;
+    width: 40px;
+  }
+
+  body.night div.container-headersec3p p.others {
+    margin-left: 35px;
+    font-size: 13px;
+  }
+
+  body.night div.container-headersec3p p.headersec3p2three {
+    width: 100%;
+    margin-top: -14px;
+    margin-left: 28px;
+    font-size: 9px;
+    text-align: center;
+  }
+
+  body.night div.containermain-sec3three i {
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0px 0px 22px;
+  }
+
+  body.night div.container-headersecpicholder img.ps {
+    margin-left: 5px;
+    margin-top: 13px;
+    width: 40px;
+  }
+
+  body.night div.container-headersecpicholder img.php {
+    margin-top: 5px;
+  }
 }
 
-@media (max-width: 364px) {
+@media (max-width: 375px) {
   body,
   html {
     overflow-x: hidden;
@@ -1556,5 +1751,98 @@ div.wrapperssec5b button.button:hover:after {
   div.imgsec1 img {
     margin-top: -550px;
     margin-left: 30px;
+  }
+
+  .timelineholder {
+    width: 100%;
+    margin: 0;
+    margin-left: 0;
+  }
+
+  .timeline {
+    color: #fff;
+    margin: 0;
+    margin-left: 113px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .timeline ul {
+    list-style-type: none;
+    border-left: 2px solid #ff9000;
+    padding: 0px 5px;
+  }
+
+  .timeline ul li {
+    padding: 0px 0px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .timeline ul li.left {
+    padding: 0px 0px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .timeline ul li span.left {
+    float: right;
+    background-color: #3071ff;
+    border-radius: 25px;
+    padding: 3px 5px;
+    margin-top: 20px;
+    margin-right: -160px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .timeline ul li span {
+    display: inline-block;
+    background-color: #3071ff;
+    border-radius: 25px;
+    padding: 3px 5px;
+    margin-top: 23px;
+    margin-left: 10px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .timeline ul li.left .content span.spandash {
+    color: red;
+    margin: 0px;
+  }
+
+  .timeline ul li .content h3 {
+    color: #ff9000;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+
+  .timeline ul li.left .content h3 {
+    color: #ff9000;
+    font-size: 14px;
+    text-align: right;
+    padding-top: 50px;
+    margin-left: 65px;
+    width: 100%;
+  }
+
+  .timeline ul li .content p.subsec4 {
+    margin-top: -15px;
+    font-weight: 200;
+    font-size: 12px;
+  }
+
+  .timeline ul li .content p.subsec4left {
+    margin-top: -15px;
+    text-align: right;
+    width: 100%;
+    margin-left: 65px;
+    font-weight: 200;
+    font-size: 12px;
   }
 }
