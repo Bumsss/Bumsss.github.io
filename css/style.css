@@ -480,29 +480,30 @@ div.container-headersec3p p.others {
 
 div.container-headersecpicholder img {
   max-width: 100%;
-  width: 75px;
-  transition: all 0.2s ease-in-out;
-}
-
-div.container-headersecpicholder img:hover {
-  transform: scale(1.3);
-}
-
-div.container-headersecpicholder img.ps {
-  margin-left: 10px;
-}
-
-div.container-headersecpicholder img.js {
-  margin-left: 10px;
-}
-
-div.container-headersecpicholder img.wp {
-  margin-top: 10px;
+  width: 65px;
 }
 
 div.container-headersecpicholder {
-  display: flexbox;
-  margin: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  padding: 40px;
+}
+
+div.textholderimg p {
+  margin: auto;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  font-size: 0.8em;
+}
+
+div.textholderimg {
+  transition: all 0.2s ease-in-out;
+  margin: auto;
+}
+
+div.textholderimg:hover {
+  transform: scale(1.3);
 }
 
 #section4 {
@@ -1218,15 +1219,18 @@ div.wrapperssec5b button.button:hover:after {
 
   div.container-holdersec3 {
     width: 100%;
-    display: block;
     margin: auto;
+  }
+
+  #section3 {
+    height: 120vh;
   }
 
   div.containermain-sec3 {
     background-color: #f3f3f3;
     max-width: 100%;
-    width: 70%;
-    height: 120px;
+    width: 80%;
+    height: 155px;
     border-radius: 12px;
     margin: auto;
     margin-top: 10px;
@@ -1236,8 +1240,8 @@ div.wrapperssec5b button.button:hover:after {
   div.containermain-sec3two {
     background-color: #f3f3f3;
     max-width: 100%;
-    width: 70%;
-    height: 55px;
+    width: 80%;
+    height: 150px;
     border-radius: 12px;
     margin: auto;
     margin-top: 10px;
@@ -1247,12 +1251,16 @@ div.wrapperssec5b button.button:hover:after {
   div.containermain-sec3three {
     background-color: #f3f3f3;
     max-width: 100%;
-    width: 70%;
-    height: 65px;
+    width: 80%;
+    height: 155px;
     border-radius: 12px;
     margin: auto;
     margin-top: 10px;
     box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;
+  }
+
+  div.containermain-sec3two div.textholderimg {
+    justify-self: center;
   }
 
   div.container-headersec3i {
@@ -1282,7 +1290,12 @@ div.wrapperssec5b button.button:hover:after {
   }
 
   div.container-headersecpicholder img.wp {
-    margin-left: 5px;
+    margin-left: 15px;
+  }
+
+  div.container-headersecpicholder img.angular {
+    margin-left: 6px;
+    margin-top: 10px;
   }
 
   div.container-headersec3p p.headersec3p2 {
@@ -1298,10 +1311,7 @@ div.wrapperssec5b button.button:hover:after {
   }
 
   div.container-headersecpicholder {
-    display: flexbox;
-    margin: -12px 5px 3px 5px;
-    justify-content: center;
-    align-items: center;
+    margin: -40px 5px 3px -40px;
     width: 100%;
   }
 
