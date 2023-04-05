@@ -18,7 +18,7 @@ window.addEventListener("scroll", reveal);
 
 setTimeout(function () {
   $(".loader_bg").fadeToggle();
-}, 1000);
+}, 3000);
 
 var content = document.getElementsByTagName("body")[0];
 var darkMode = document.getElementById("dark-change");
