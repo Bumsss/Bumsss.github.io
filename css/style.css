@@ -207,7 +207,6 @@ body.night div.containermain-sec3three p {
 #section1 {
   min-height: 80vh;
   height: 80vh;
-
   display: inline-block;
   max-width: 100%;
   width: 100%;
@@ -287,14 +286,16 @@ div.imgsec1 img:hover {
 }
 
 #section2 {
-  min-height: 90vh;
-
+  min-height: 80vh;
+  height: 80vh;
   display: inline-block;
   width: 100%;
+  margin-top: 180px;
 }
 
 div.headersec2 {
   margin: auto;
+  margin-top: 30px;
 }
 
 div.headersec2 h1 {
@@ -376,7 +377,8 @@ div.infoabout2 button i {
 
 #section3 {
   min-height: 80vh;
-
+  height: 80vh;
+  margin-top: 180px;
   display: inline-block;
   width: 100%;
 }
