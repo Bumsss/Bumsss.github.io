@@ -14,6 +14,7 @@ body {
 /* background: #111827;*/
 body {
   background: #e7e7e7;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
 }
 
 label {
@@ -24,6 +25,7 @@ label {
   top: 50px;
   border: 2px solid;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 label:before {
@@ -34,7 +36,6 @@ label:before {
   left: 1px;
   top: 1px;
   border-radius: 50%;
-  cursor: pointer;
   background: #000;
   transition: 0.5s;
 }
@@ -43,6 +44,10 @@ label.active:before {
   left: 24px;
   background: #fff;
   color: #000;
+}
+
+body.night h1.myname {
+  color: #f3f3f3;
 }
 
 body.night {
@@ -214,6 +219,7 @@ h1.myname {
   padding: 0;
   animation: slideanimation 2s cubic-bezier(0.37, 0, 0.63, 1) 0s 1 normal
     forwards;
+  color: #222222;
 }
 
 div.wrappersec1 {
@@ -344,8 +350,9 @@ div.numbers h1 {
 }
 
 div.numbers p {
-  font-size: 16px;
+  font-size: 0.9rem;
   margin-top: -20px;
+  font-weight: 300;
 }
 
 div.infoabout2 button {
@@ -1290,12 +1297,12 @@ div.wrapperssec5b button.button:hover:after {
   }
 
   div.container-headersecpicholder img.wp {
-    margin-left: 15px;
+    margin-left: 0px;
   }
 
   div.container-headersecpicholder img.angular {
-    margin-left: 6px;
-    margin-top: 10px;
+    margin-left: 0px;
+    margin-top: 13px;
   }
 
   div.container-headersec3p p.headersec3p2 {
@@ -1344,6 +1351,22 @@ div.wrapperssec5b button.button:hover:after {
     margin-left: 28px;
     font-size: 9px;
     text-align: center;
+  }
+
+  div.textholderimg #phptext {
+    margin-left: 0;
+  }
+
+  div.textholderimg p {
+    font-size: 9px;
+  }
+
+  div.containermain-sec3two .textholderimg {
+    margin-left: -105px;
+  }
+
+  div.containermain-sec3three .textholderimg {
+    margin-left: -105px;
   }
 
   div.containermain-sec3three i {
@@ -1405,6 +1428,10 @@ div.wrapperssec5b button.button:hover:after {
     margin-left: 0px;
     margin-top: 20px;
   }
+
+  div.infoabout2 p.aboutme2 {
+    font-size: 0.8rem;
+  }
   div.infoabout2 p {
     font-size: 0.8rem;
     text-align: justify;
@@ -1420,7 +1447,7 @@ div.wrapperssec5b button.button:hover:after {
   }
 
   div.numberholder {
-    margin-top: -30px;
+    margin-top: -15px;
   }
 
   div.numbers {
@@ -1428,7 +1455,7 @@ div.wrapperssec5b button.button:hover:after {
   }
 
   div.numbers h1 {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 
   div.numbers p {
@@ -1438,8 +1465,8 @@ div.wrapperssec5b button.button:hover:after {
   div.wrappersec2 button {
     padding: 10px;
     margin: auto;
-    margin-left: 70px;
     margin-top: 30px;
+    margin-left: 85px;
   }
 
   div.wrappersec2 button a {
@@ -1450,6 +1477,7 @@ div.wrapperssec5b button.button:hover:after {
     width: 100%;
     margin: 0;
     margin-left: 0%;
+    padding-left: 70px;
   }
 
   .timeline {
@@ -1560,50 +1588,6 @@ div.wrapperssec5b button.button:hover:after {
     font-size: 0.7em;
   }
 
-  #section4 {
-  }
-
-  #section5 {
-  }
-
-  body.night div.containermain-sec3 {
-    background-color: #1e293b;
-    max-width: 100%;
-    width: 21%;
-    max-height: 100%;
-    height: 300px;
-    margin-top: 80px;
-    border-radius: 12px;
-    padding-bottom: 30px;
-    box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;
-  }
-
-  body.night div.containermain-sec3two {
-    background-color: #1e293b;
-    max-width: 100%;
-    width: 21%;
-    max-height: 100%;
-    height: 300px;
-    margin-left: 25px;
-    margin-top: 80px;
-    border-radius: 12px;
-    padding-bottom: 30px;
-    box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;
-  }
-
-  body.night div.containermain-sec3three {
-    background-color: #1e293b;
-    max-width: 100%;
-    width: 21%;
-    max-height: 100%;
-    height: 300px;
-    margin-left: 25px;
-    margin-top: 80px;
-    border-radius: 12px;
-    padding-bottom: 30px;
-    box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;
-  }
-
   body.night div.container-headersec3p p {
     font-size: 1.2rem;
     text-align: center;
@@ -1620,8 +1604,8 @@ div.wrapperssec5b button.button:hover:after {
   body.night div.containermain-sec3 {
     background-color: #1e293b;
     max-width: 100%;
-    width: 70%;
-    height: 120px;
+    width: 80%;
+    height: 150px;
     border-radius: 12px;
     margin: auto;
     margin-top: 10px;
@@ -1631,8 +1615,8 @@ div.wrapperssec5b button.button:hover:after {
   body.night div.containermain-sec3two {
     background-color: #1e293b;
     max-width: 100%;
-    width: 70%;
-    height: 55px;
+    width: 80%;
+    height: 150px;
     border-radius: 12px;
     margin: auto;
     margin-top: 10px;
@@ -1642,8 +1626,8 @@ div.wrapperssec5b button.button:hover:after {
   body.night div.containermain-sec3three {
     background-color: #1e293b;
     max-width: 100%;
-    width: 70%;
-    height: 65px;
+    width: 80%;
+    height: 150px;
     border-radius: 12px;
     margin: auto;
     margin-top: 10px;
@@ -1746,6 +1730,19 @@ div.wrapperssec5b button.button:hover:after {
 
   body.night div.container-headersecpicholder img.php {
     margin-top: 5px;
+  }
+
+  body.night div.containermain-sec3two .textholderimg {
+    margin-left: -105px;
+  }
+
+  body.night div.containermain-sec3three .textholderimg {
+    margin-left: -105px;
+  }
+
+  body.night div.container-headersecpicholder {
+    margin-left: -50px;
+    margin-top: -45px;
   }
 }
 
