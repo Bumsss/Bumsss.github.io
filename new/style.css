@@ -881,6 +881,7 @@ textarea {
   .about-section {
     display: flex;
     flex-direction: column;
+    height: 90vh;
   }
 
   .about-section .aboutme-container {
@@ -973,10 +974,127 @@ textarea {
   .home-section .container-home .holder-home-container .home-hey button {
     margin: 30px 0px;
   }
-}
 
-.projects-section,
-.contact-section,
-.footer-section {
-  display: none;
+  .projects-section {
+    margin: 0;
+    grid-template-rows: 300px 1fr;
+  }
+
+  .projects-section .project-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projects-section .project-header h1 {
+    font-size: 2rem;
+  }
+
+  .projects-section .project-header p {
+    font-size: 0.8rem;
+    width: 80%;
+  }
+
+  .projects-section .project-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: -20px 0px;
+  }
+
+  .projects-section .project-content:nth-child(3) {
+    margin-top: 100px;
+  }
+  .projects-section .project-content .image-container img {
+    max-width: 100%;
+    width: 500px;
+  }
+
+  .projects-section .project-content .content-container {
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projects-section .project-content .content-container h3 {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  .projects-section .project-content .content-container p {
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 2;
+    width: 95%;
+  }
+
+  .contact-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-section .contact-header-container h1 {
+    font-size: 2rem;
+  }
+
+  .contact-section .contact-header-container p {
+    font-size: 0.8rem;
+    width: 80%;
+  }
+
+  .contact-section .hero {
+    width: 90%;
+    height: 65vh;
+  }
+
+  form input {
+    padding: 15px;
+  }
+
+  .contact-section .hero .send-btn {
+    width: 100%;
+  }
+
+  .contact-section .hero .send-btn {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+  }
+
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+  }
+  .footer-section .footer-top {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+  }
+
+  .footer-section .footer-left {
+    margin: 0px 30px;
+  }
+
+  .footer-section .footer-left h3 {
+    font-weight: 700;
+  }
+
+  .footer-section .footer-left p {
+    width: 90%;
+  }
+
+  .footer-section .footer-right {
+    margin: 30px 30px;
+  }
+
+  .footer-section .footer-right .header-social h3 {
+    font-weight: 600;
+  }
 }
