@@ -1076,22 +1076,19 @@ textarea {
   }
 
   .footer-section {
+    all: unset;
+  }
+
+  .footer-section {
     display: flex;
     flex-direction: column;
-    height: 40vh;
+    background: #000;
   }
+
   .footer-section .footer-top {
     display: flex;
     flex-direction: column;
-    margin: 20px 0px;
-  }
-
-  .footer-section .footer-left {
     margin: 0px 30px;
-  }
-
-  .footer-section .footer-left h3 {
-    font-weight: 700;
   }
 
   .footer-section .footer-left p {
@@ -1099,10 +1096,12 @@ textarea {
   }
 
   .footer-section .footer-right {
-    margin: 30px 30px;
+    margin-bottom: 30px;
   }
 
-  .footer-section .footer-right .header-social h3 {
-    font-weight: 600;
+  .footer-section .footer-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
