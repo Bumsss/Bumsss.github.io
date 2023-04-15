@@ -875,13 +875,25 @@ textarea {
 /* Mobile */
 @media (max-width: 576px) {
   .home-section {
-    height: 80vh;
+    height: 100vh;
   }
 
   .about-section {
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    height: 120vh;
+  }
+
+  .contact-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projects-section {
+    margin: 0;
+    grid-template-rows: 300px 1fr;
+    height: 100vh;
   }
 
   .about-section .aboutme-container {
@@ -975,11 +987,6 @@ textarea {
     margin: 30px 0px;
   }
 
-  .projects-section {
-    margin: 0;
-    grid-template-rows: 300px 1fr;
-  }
-
   .projects-section .project-header {
     display: flex;
     flex-direction: column;
@@ -1032,12 +1039,6 @@ textarea {
     font-weight: 400;
     line-height: 2;
     width: 95%;
-  }
-
-  .contact-section {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
   }
 
   .contact-section .contact-header-container h1 {
