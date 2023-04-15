@@ -874,6 +874,13 @@ textarea {
 
 /* Mobile */
 @media (max-width: 576px) {
+  .loader {
+    display: inline-block;
+    margin: 0 16px;
+    top: calc(50vh - 100px);
+    left: calc(50vw - 80px);
+  }
+
   .home-section {
     height: 100vh;
   }
@@ -927,7 +934,7 @@ textarea {
   }
 
   .about-section .secondbox-container .gettoknow-container p {
-    width: 80%;
+    width: 100%;
     margin: 0;
     font-size: 0.9rem;
   }
