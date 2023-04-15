@@ -892,7 +892,7 @@ textarea {
   }
 
   .contact-section {
-    height: 100vh;
+    height: 110vh;
     display: flex;
     flex-direction: column;
   }
@@ -900,7 +900,7 @@ textarea {
   .projects-section {
     margin: 0;
     grid-template-rows: 300px 1fr;
-    height: 100vh;
+    height: 150vh;
   }
 
   .about-section .aboutme-container {
@@ -1059,7 +1059,7 @@ textarea {
 
   .contact-section .hero {
     width: 90%;
-    height: 65vh;
+    height: 75vh;
   }
 
   form input {
