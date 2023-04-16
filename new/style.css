@@ -39,6 +39,7 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 50;
 }
 
 .wrapper .header {
@@ -218,6 +219,7 @@ header {
   font-size: 60px;
   letter-spacing: 1.3px;
   font-weight: 700;
+  animation: slideanimation 1s ease;
 }
 
 .home-section .container-home .home-hey p {
@@ -228,6 +230,7 @@ header {
   margin: 0;
   margin-top: -30px;
   margin-left: -100px;
+  animation: slideanimation 2s ease;
 }
 
 .home-section .container-home .home-hey button {
@@ -237,7 +240,7 @@ header {
   margin-top: 40px;
   border-radius: 5px;
   cursor: pointer;
-  transition: all 0.2s;
+  animation: slideanimation 3s ease;
 }
 
 .home-section .container-home .home-hey button:hover {
@@ -1261,3 +1264,69 @@ form ::placeholder {
 footer {
   display: none;
 } */
+
+.reveal {
+  position: relative;
+  transform: translateY(60px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.active.fade-bottom {
+  animation: fade-bottom 1s ease-in-out;
+}
+.active.fade-left {
+  animation: fade-left 1s ease-in-out;
+}
+
+.active.fade-right {
+  animation: fade-right 1s ease-in-out;
+}
+
+@keyframes slideanimation {
+  0% {
+    opacity: 0;
+    transform: translateX(-250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-left {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
