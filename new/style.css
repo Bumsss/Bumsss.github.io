@@ -524,6 +524,7 @@ header {
 .contact-section .hero {
   width: 50%;
   min-height: 80vh;
+  background: red;
   display: flex;
   justify-content: center;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
@@ -1037,7 +1038,7 @@ textarea {
   }
   .projects-section .project-content .image-container img {
     max-width: 100%;
-    width: 500px;
+    width: 400px;
   }
 
   .projects-section .project-content .content-container {
@@ -1073,7 +1074,6 @@ textarea {
 
   .contact-section .hero {
     width: 90%;
-    height: 75vh;
   }
 
   form input {
@@ -1119,3 +1119,11 @@ textarea {
     align-items: center;
   }
 }
+
+/* .home-section,
+.about-section,
+.projects-section,
+.contact-section,
+footer {
+  display: none;
+} */
