@@ -7,12 +7,22 @@ html {
   padding: 0;
 }
 
+html {
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
 * {
   font-family: "Poppins", sans-serif;
   color: #000;
   text-decoration: none;
   scroll-behavior: smooth;
   font-weight: 500;
+  box-sizing: border-box;
 }
 
 :root {
@@ -22,7 +32,7 @@ html {
 .wrapper {
   display: grid;
   grid-template-columns: 1fr;
-  min-height: 100vh;
+  grid-template-rows: auto;
 }
 
 header {
@@ -113,7 +123,8 @@ header {
   background: url("assets/section1-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  background-position: center;
+  min-height: 100vh;
 }
 
 .home-section .holder-home-container {
@@ -244,7 +255,7 @@ header {
   display: grid;
   grid-template-rows: 400px 1fr;
   background: #f3f3f336;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .about-section .aboutme-container {
@@ -363,6 +374,7 @@ header {
 .projects-section {
   display: grid;
   grid-template-rows: 400px 1fr;
+  min-height: 100vh;
 }
 
 .projects-section .project-header {
@@ -467,7 +479,7 @@ header {
   background: url("assets/section1-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 120vh;
+  min-height: 120vh;
 }
 
 .contact-section .contact-header-container {
@@ -511,7 +523,7 @@ header {
 }
 .contact-section .hero {
   width: 50%;
-  height: 80vh;
+  min-height: 80vh;
   display: flex;
   justify-content: center;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
@@ -523,7 +535,7 @@ form {
   width: 100%;
   padding: 30px;
   font-size: 18px;
-  height: 80%;
+  min-height: 80%;
   margin-bottom: 30px;
 }
 
@@ -563,11 +575,11 @@ textarea {
 
 .footer-section {
   background-color: #000;
-  height: 30vh;
-  overflow: hidden;
+  min-height: 30vh;
   display: grid;
   grid-template-columns: 1fr 1200px 1fr;
   grid-template-rows: 1fr 100px;
+  bottom: 0;
 }
 
 .footer-section .footer-top {
@@ -841,10 +853,10 @@ textarea {
 
   .wrapper header .hamburger span {
     display: block;
-    height: 4px;
-    width: 40px;
+    height: 3px;
+    width: 30px;
     background-color: #000;
-    margin: 3.5px 0px;
+    margin: 2px 0px;
   }
 
   .wrapper header .hamburger:hover span {
@@ -874,6 +886,11 @@ textarea {
 
 /* Mobile */
 @media (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
   .loader {
     display: inline-block;
     margin: 0 16px;
@@ -882,17 +899,15 @@ textarea {
   }
 
   .home-section {
-    height: 100vh;
+    min-height: 100vh;
   }
 
   .about-section {
     display: flex;
     flex-direction: column;
-    height: 120vh;
   }
 
   .contact-section {
-    height: 110vh;
     display: flex;
     flex-direction: column;
   }
@@ -900,7 +915,6 @@ textarea {
   .projects-section {
     margin: 0;
     grid-template-rows: 300px 1fr;
-    height: 150vh;
   }
 
   .about-section .aboutme-container {
