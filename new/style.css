@@ -348,6 +348,10 @@ header {
   color: #2b2b2b;
 }
 
+.about-section .secondbox-container .gettoknow-container a.downloadCv {
+  margin-left: 1.5rem;
+}
+
 .about-section .secondbox-container .myskills-container h3 {
   font-size: 25px;
   font-weight: 600;
@@ -713,59 +717,92 @@ form ::placeholder {
   justify-content: center;
 }
 
-.spinner {
-  box-shadow: 0 0 0 7px var(--primary), inset 0 0 0 1px var(--primary);
-  position: relative;
-  height: 50px;
-  width: 230px;
-  border-radius: 8px;
-  overflow: hidden;
-  animation: rotate_5132 6s linear infinite;
+.pl,
+.pl__worm {
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
-.spinner:before {
-  display: block;
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  background-color: var(--primary);
-  animation: load_5123 6s linear infinite;
+.pl {
+  animation-name: bump5;
+  animation-timing-function: linear;
+  width: 5em;
+  height: 5em;
 }
 
-@keyframes rotate_5132 {
-  0%,
-  42% {
-    transform: rotate(0deg);
+.pl__ring {
+  stroke: hsla(var(--hue), 10%, 10%, 0.1);
+  transition: stroke 0.3s;
+}
+
+.pl__worm {
+  animation-name: worm5;
+  animation-timing-function: cubic-bezier(0.42, 0.17, 0.75, 0.83);
+}
+
+/* Animations */
+@keyframes bump5 {
+  from,
+  42%,
+  46%,
+  51%,
+  55%,
+  59%,
+  63%,
+  67%,
+  71%,
+  74%,
+  78%,
+  81%,
+  85%,
+  88%,
+  92%,
+  to {
+    transform: translate(0, 0);
   }
 
-  48%,
-  92% {
-    transform: rotate(180deg);
+  44% {
+    transform: translate(1.33%, 6.75%);
   }
 
-  100% {
-    transform: rotate(360deg);
+  53% {
+    transform: translate(-16.67%, -0.54%);
+  }
+
+  61% {
+    transform: translate(3.66%, -2.46%);
+  }
+
+  69% {
+    transform: translate(-0.59%, 15.27%);
+  }
+
+  76% {
+    transform: translate(-1.92%, -4.68%);
+  }
+
+  83% {
+    transform: translate(9.38%, 0.96%);
+  }
+
+  90% {
+    transform: translate(-4.55%, 1.98%);
   }
 }
 
-@keyframes load_5123 {
-  0% {
-    width: 0;
+@keyframes worm5 {
+  from {
+    stroke-dashoffset: 10;
   }
 
-  40%,
-  50% {
-    width: 100%;
+  25% {
+    stroke-dashoffset: 295;
   }
 
-  90%,
-  100% {
-    width: 0;
+  to {
+    stroke-dashoffset: 1165;
   }
 }
-
 /* Desktop / Laptop */
 @media (max-width: 1200px) {
 }
@@ -939,10 +976,18 @@ form ::placeholder {
     width: 60%;
   }
 
+  .about-section .secondbox-container .gettoknow-container .buttons-bottom {
+    display: flex;
+  }
+
   .about-section .secondbox-container .gettoknow-container a button {
     font-size: 0.8rem;
     font-weight: 600;
     padding: 15px 30px;
+  }
+
+  .about-section .secondbox-container .gettoknow-container a.downloadCv {
+    margin-left: 1.2rem;
   }
 
   .about-section .secondbox-container .myskills-container {
