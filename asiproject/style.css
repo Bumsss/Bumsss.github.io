@@ -467,6 +467,14 @@ header {
   font-weight: 500;
 }
 
+.projects-section .project-header p {
+  width: 45%;
+  text-align: center;
+  font-size: 19px;
+  color: #666;
+  font-weight: 500;
+}
+
 .projects-section .project-content {
   display: grid;
   grid-template-columns: 1fr 500px 700px 1fr;
