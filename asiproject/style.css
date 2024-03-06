@@ -239,6 +239,17 @@ header {
   animation: slideanimation 1s ease;
 }
 
+.home-section .container-home .home-hey h3 {
+  font-size: 1.6em;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  animation: slideanimation 2s ease;
+  margin: 0;
+  margin-left: -100px;
+  margin-top: -50px;
+  margin-bottom: 35px;
+}
+
 .home-section .container-home .home-hey p {
   font-size: 20px;
   width: 45%;
@@ -397,14 +408,14 @@ header {
   .secondbox-container
   .myskills-container
   .my-skills-container-one {
-  margin-top: 90px;
+  margin-top: 100px;
 }
 
 .about-section
   .secondbox-container
   .myskills-container
   .my-skills-container-one:nth-child(2) {
-  margin-top: 180px;
+  margin-top: 115px;
 }
 
 .about-section .secondbox-container .myskills-skills {
@@ -605,15 +616,6 @@ header {
   letter-spacing: 1px;
   font-size: 40px;
   font-weight: 600;
-}
-
-.contact-section .contact-header-container span {
-  display: block;
-  background: var(--primary);
-  height: 4px;
-  width: 40px;
-  border-radius: 30px;
-  margin-top: -15px;
 }
 
 .contact-section .contact-header-container p {
