@@ -377,6 +377,7 @@ header {
   font-size: 0.9rem;
   color: #666;
   transition: all 0.1s ease-in;
+  cursor: pointer;
 }
 
 .about-section .secondbox-container .myskills-skills_skills:hover {
@@ -425,7 +426,7 @@ header {
 .projects-section .project-content {
   display: grid;
   grid-template-columns: 1fr 500px 700px 1fr;
-  margin-top: -100px;
+  margin-top: -300px;
 }
 
 .projects-section
@@ -452,6 +453,7 @@ header {
   color: #666;
   transition: all 0.1s ease-in;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .projects-section
@@ -682,6 +684,11 @@ form ::placeholder {
   color: #f3f3f3;
   font-size: 0.7rem;
   font-weight: 300;
+}
+
+.footer-section .footer-down a {
+  text-decoration: underline;
+  font-weight: 500;
 }
 
 .footer-section .footer-right {
