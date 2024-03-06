@@ -71,6 +71,9 @@ header {
 
 .wrapper .navigation {
   margin: 15px 0px;
+
+  display: flex;
+  justify-content: space-between;
 }
 
 .wrapper .nav-menu {
@@ -83,7 +86,16 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-left: -100px;
+  margin-left: 100px;
+}
+
+.wrapper .logo:nth-child(3) {
+  margin-left: 25px;
+}
+
+.wrapper .spacer {
+  border-left: 2px solid rgb(209, 209, 209);
+  margin-left: 20px;
 }
 
 .wrapper .logo:hover a {
@@ -211,6 +223,7 @@ header {
   justify-content: center;
   display: flex;
   flex-direction: column;
+  grid-column: 2;
 }
 
 .home-section .container-home .home-hey h1,
@@ -327,6 +340,23 @@ header {
   font-weight: 400;
 }
 
+.about-section .secondbox-container .gettoknow-container div.names {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -30px;
+}
+
+.about-section .secondbox-container .gettoknow-container div.names p {
+  padding: 0.1rem 0.6rem;
+  background-color: rgba(153, 153, 153, 0.2);
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #666;
+  transition: all 0.1s ease-in;
+  width: auto;
+}
+
 .about-section .secondbox-container .gettoknow-container button {
   padding: 15px 50px;
   border: none;
@@ -335,6 +365,7 @@ header {
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.2s;
+  margin-bottom: 30px;
 }
 
 .about-section .secondbox-container .gettoknow-container button:hover {
@@ -360,6 +391,20 @@ header {
 .about-section .secondbox-container .myskills-container {
   box-sizing: border-box;
   display: flexbox;
+}
+
+.about-section
+  .secondbox-container
+  .myskills-container
+  .my-skills-container-one {
+  margin-top: 90px;
+}
+
+.about-section
+  .secondbox-container
+  .myskills-container
+  .my-skills-container-one:nth-child(2) {
+  margin-top: 180px;
 }
 
 .about-section .secondbox-container .myskills-skills {
@@ -425,7 +470,7 @@ header {
 .projects-section .project-content {
   display: grid;
   grid-template-columns: 1fr 500px 700px 1fr;
-  margin-top: -100px;
+  margin-top: -300px;
 }
 
 .projects-section
@@ -528,6 +573,15 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 120vh;
+}
+
+.contact-section .contact-header-container span {
+  display: block;
+  background: var(--primary);
+  height: 4px;
+  width: 40px;
+  border-radius: 30px;
+  margin-top: -15px;
 }
 
 .contact-section .contact-header-container {
