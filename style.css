@@ -537,7 +537,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 70px;
 }
 
 .contact-section .contact-header-container h1 {
@@ -548,7 +548,7 @@ header {
 }
 
 .contact-section .contact-header-container span {
-  display: block;
+  display: inline-block;
   background: var(--primary);
   height: 4px;
   width: 40px;
@@ -570,6 +570,7 @@ header {
   justify-content: center;
   margin: 0;
   padding: 0;
+  margin-top: 2rem;
 }
 .contact-section .hero {
   width: 50%;
