@@ -1,6 +1,6 @@
 setTimeout(function () {
   $(".loader_bg").fadeToggle();
-}, 10);
+}, 3050);
 
 window.addEventListener("DOMContentLoaded", () => {
   const hamburger = document.querySelector("#hamburger");
