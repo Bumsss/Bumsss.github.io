@@ -426,7 +426,6 @@ header {
 .projects-section .project-content {
   display: grid;
   grid-template-columns: 1fr 500px 700px 1fr;
-  margin-top: -300px;
 }
 
 .projects-section
